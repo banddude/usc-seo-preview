@@ -176,6 +176,10 @@ export function getThumbPath(imagePath: string): string {
 // path; the caller's <Image> tag should still render even if the medium file
 // doesn't exist on disk yet.
 export function getMediumPath(imagePath: string): string {
+  if (imagePath.startsWith("/images/photography/")) {
+    const slash = imagePath.lastIndexOf("/");
+    return `${imagePath.slice(0, slash + 1)}medium_${imagePath.slice(slash + 1)}`;
+  }
   // /images/store/image.jpg -> /images/store/medium/image.jpg
   const parts = imagePath.split('/');
   const filename = parts.pop();

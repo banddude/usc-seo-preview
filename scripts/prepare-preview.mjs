@@ -18,7 +18,9 @@ async function visit(dir) {
       }
       if (entry.name === "index.html") {
         const relative = path.relative(output, dir).split(path.sep).join("/");
-        routes.push(`${previewUrl}/${relative ? `${relative}/` : ""}`);
+        if (!["404", "_not-found"].includes(relative)) {
+          routes.push(`${previewUrl}/${relative ? `${relative}/` : ""}`);
+        }
       }
     }
   }
