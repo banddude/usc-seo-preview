@@ -29,7 +29,7 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.s
 await writeFile(path.join(output, "sitemap.xml"), xml);
 const robots = await readFile(path.join(output, "robots.txt"), "utf8");
 if (!/^Disallow: \/$/m.test(robots) || /^Allow:/m.test(robots)) throw new Error("Preview robots.txt must disallow all crawling");
-for (const route of ["services", "collective"]) {
+for (const route of ["services", "collective", "fashion-film-production", "fashion-film-production-cost"]) {
   await access(path.join(output, route, "index.html"));
   if (!routes.includes(`${previewUrl}/${route}/`)) throw new Error(`Missing sitemap route: ${route}`);
 }
