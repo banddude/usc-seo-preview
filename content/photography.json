@@ -1,0 +1,376 @@
+{
+  "page": "photography",
+  "title": "Photography",
+  "layout": "grid",
+  "has_load_more": true,
+  "hero": {
+    "enabled": true,
+    "image": "/images/photography/963954_3b1ade74535044fcba87f864819ad9bf~mv2.jpg",
+    "title": "Photography",
+    "subtitle": "Capturing moments that tell stories"
+  },
+  "projects": [
+    {
+      "slug": "remain-on-hold",
+      "name": "Remain On Hold",
+      "description": "A mixture of still and bts photographs taken from the 60/70s inspired fashion film: Remain On Hold - Produced by United Studio Collective",
+      "hero": "/images/photography/1768517246635_img036-2.jpg",
+      "images": []
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/photography/medium_1768517246635_img036-2.jpg",
+      "description": "Remain On Hold Gallery",
+      "project": "remain-on-hold",
+      "thumb": "/images/photography/thumb_1768517246635_img036-2.jpg",
+      "medium": "/images/photography/medium_1768517246635_img036-2.jpg",
+      "full": "/images/photography/full_1768517246635_img036-2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_1769984950926_Selects_Evan_3_.jpg",
+      "thumb": "/images/photography/thumb_1769984950926_Selects_Evan_3_.jpg",
+      "medium": "/images/photography/medium_1769984950926_Selects_Evan_3_.jpg",
+      "full": "/images/photography/full_1769984950926_Selects_Evan_3_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769984975189_Selects_Evan_6_.jpg",
+      "thumb": "/images/photography/thumb_1769984975189_Selects_Evan_6_.jpg",
+      "medium": "/images/photography/medium_1769984975189_Selects_Evan_6_.jpg",
+      "full": "/images/photography/full_1769984975189_Selects_Evan_6_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769984982145_Selects_Evan_7_.jpg",
+      "thumb": "/images/photography/thumb_1769984982145_Selects_Evan_7_.jpg",
+      "medium": "/images/photography/medium_1769984982145_Selects_Evan_7_.jpg",
+      "full": "/images/photography/full_1769984982145_Selects_Evan_7_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769984990992_Selects_Evan_8_.jpg",
+      "thumb": "/images/photography/thumb_1769984990992_Selects_Evan_8_.jpg",
+      "medium": "/images/photography/medium_1769984990992_Selects_Evan_8_.jpg",
+      "full": "/images/photography/full_1769984990992_Selects_Evan_8_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985000087_Selects_Evan_9_.jpg",
+      "thumb": "/images/photography/thumb_1769985000087_Selects_Evan_9_.jpg",
+      "medium": "/images/photography/medium_1769985000087_Selects_Evan_9_.jpg",
+      "full": "/images/photography/full_1769985000087_Selects_Evan_9_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985013727_Selects_Evan_11_.jpg",
+      "thumb": "/images/photography/thumb_1769985013727_Selects_Evan_11_.jpg",
+      "medium": "/images/photography/medium_1769985013727_Selects_Evan_11_.jpg",
+      "full": "/images/photography/full_1769985013727_Selects_Evan_11_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985019532_Selects_Evan_12_.jpg",
+      "thumb": "/images/photography/thumb_1769985019532_Selects_Evan_12_.jpg",
+      "medium": "/images/photography/medium_1769985019532_Selects_Evan_12_.jpg",
+      "full": "/images/photography/full_1769985019532_Selects_Evan_12_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985025872_Selects_Evan_13_.jpg",
+      "thumb": "/images/photography/thumb_1769985025872_Selects_Evan_13_.jpg",
+      "medium": "/images/photography/medium_1769985025872_Selects_Evan_13_.jpg",
+      "full": "/images/photography/full_1769985025872_Selects_Evan_13_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985033250_Selects_Evan_14_.jpg",
+      "thumb": "/images/photography/thumb_1769985033250_Selects_Evan_14_.jpg",
+      "medium": "/images/photography/medium_1769985033250_Selects_Evan_14_.jpg",
+      "full": "/images/photography/full_1769985033250_Selects_Evan_14_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985039700_Selects_Evan_15_.jpg",
+      "thumb": "/images/photography/thumb_1769985039700_Selects_Evan_15_.jpg",
+      "medium": "/images/photography/medium_1769985039700_Selects_Evan_15_.jpg",
+      "full": "/images/photography/full_1769985039700_Selects_Evan_15_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985046393_Selects_Evan_16_.jpg",
+      "thumb": "/images/photography/thumb_1769985046393_Selects_Evan_16_.jpg",
+      "medium": "/images/photography/medium_1769985046393_Selects_Evan_16_.jpg",
+      "full": "/images/photography/full_1769985046393_Selects_Evan_16_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985054619_Selects_Evan_17_.jpg",
+      "thumb": "/images/photography/thumb_1769985054619_Selects_Evan_17_.jpg",
+      "medium": "/images/photography/medium_1769985054619_Selects_Evan_17_.jpg",
+      "full": "/images/photography/full_1769985054619_Selects_Evan_17_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985064628_Selects_Evan_18_.jpg",
+      "thumb": "/images/photography/thumb_1769985064628_Selects_Evan_18_.jpg",
+      "medium": "/images/photography/medium_1769985064628_Selects_Evan_18_.jpg",
+      "full": "/images/photography/full_1769985064628_Selects_Evan_18_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985073991_Selects_Evan_19_.jpg",
+      "thumb": "/images/photography/thumb_1769985073991_Selects_Evan_19_.jpg",
+      "medium": "/images/photography/medium_1769985073991_Selects_Evan_19_.jpg",
+      "full": "/images/photography/full_1769985073991_Selects_Evan_19_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985084733_Selects_Evan_20_.jpg",
+      "thumb": "/images/photography/thumb_1769985084733_Selects_Evan_20_.jpg",
+      "medium": "/images/photography/medium_1769985084733_Selects_Evan_20_.jpg",
+      "full": "/images/photography/full_1769985084733_Selects_Evan_20_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985093808_Selects_Evan_21_.jpg",
+      "thumb": "/images/photography/thumb_1769985093808_Selects_Evan_21_.jpg",
+      "medium": "/images/photography/medium_1769985093808_Selects_Evan_21_.jpg",
+      "full": "/images/photography/full_1769985093808_Selects_Evan_21_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985107954_Selects_Evan_22_.jpg",
+      "thumb": "/images/photography/thumb_1769985107954_Selects_Evan_22_.jpg",
+      "medium": "/images/photography/medium_1769985107954_Selects_Evan_22_.jpg",
+      "full": "/images/photography/full_1769985107954_Selects_Evan_22_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985115552_Selects_Evan_23_.jpg",
+      "thumb": "/images/photography/thumb_1769985115552_Selects_Evan_23_.jpg",
+      "medium": "/images/photography/medium_1769985115552_Selects_Evan_23_.jpg",
+      "full": "/images/photography/full_1769985115552_Selects_Evan_23_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985132142_Selects_Evan_26_.jpg",
+      "thumb": "/images/photography/thumb_1769985132142_Selects_Evan_26_.jpg",
+      "medium": "/images/photography/medium_1769985132142_Selects_Evan_26_.jpg",
+      "full": "/images/photography/full_1769985132142_Selects_Evan_26_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1769985141311_Selects_Evan_27_.jpg",
+      "thumb": "/images/photography/thumb_1769985141311_Selects_Evan_27_.jpg",
+      "medium": "/images/photography/medium_1769985141311_Selects_Evan_27_.jpg",
+      "full": "/images/photography/full_1769985141311_Selects_Evan_27_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold"
+    },
+    {
+      "src": "/images/photography/medium_1768811365642_Selects_Evan_5_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold",
+      "thumb": "/images/photography/thumb_1768811365642_Selects_Evan_5_.jpg",
+      "medium": "/images/photography/medium_1768811365642_Selects_Evan_5_.jpg",
+      "full": "/images/photography/full_1768811365642_Selects_Evan_5_.jpg"
+    },
+    {
+      "src": "/images/photography/medium_1768811144945_Selects_Evan_24_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold",
+      "thumb": "/images/photography/thumb_1768811144945_Selects_Evan_24_.jpg",
+      "medium": "/images/photography/medium_1768811144945_Selects_Evan_24_.jpg",
+      "full": "/images/photography/full_1768811144945_Selects_Evan_24_.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_3b1ade74535044fcba87f864819ad9bf~mv2.jpg",
+      "description": "Black and white silhouette of person standing at window",
+      "thumb": "/images/photography/thumb_963954_3b1ade74535044fcba87f864819ad9bf~mv2.jpg",
+      "medium": "/images/photography/medium_963954_3b1ade74535044fcba87f864819ad9bf~mv2.jpg",
+      "full": "/images/photography/full_963954_3b1ade74535044fcba87f864819ad9bf~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_1768809869486_Selects_Evan_2_.jpg",
+      "description": "Artist: Stefanos Stoik",
+      "project": "remain-on-hold",
+      "thumb": "/images/photography/thumb_1768809869486_Selects_Evan_2_.jpg",
+      "medium": "/images/photography/medium_1768809869486_Selects_Evan_2_.jpg",
+      "full": "/images/photography/full_1768809869486_Selects_Evan_2_.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_fac333b082b54599afa0d5a3ed3f18b8~mv2.jpg",
+      "description": "Abstract blurry black and white artistic photograph",
+      "thumb": "/images/photography/thumb_963954_fac333b082b54599afa0d5a3ed3f18b8~mv2.jpg",
+      "medium": "/images/photography/medium_963954_fac333b082b54599afa0d5a3ed3f18b8~mv2.jpg",
+      "full": "/images/photography/full_963954_fac333b082b54599afa0d5a3ed3f18b8~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_c62af60703dd4601859d5cee56ff3e17~mv2.jpg",
+      "description": "Person walking on desert sand dunes at golden hour",
+      "thumb": "/images/photography/thumb_963954_c62af60703dd4601859d5cee56ff3e17~mv2.jpg",
+      "medium": "/images/photography/medium_963954_c62af60703dd4601859d5cee56ff3e17~mv2.jpg",
+      "full": "/images/photography/full_963954_c62af60703dd4601859d5cee56ff3e17~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_81382f1afcf74f6d83d8f3d9063801b8~mv2.jpg",
+      "description": "Moody dark hallway with dramatic light at the end",
+      "thumb": "/images/photography/thumb_963954_81382f1afcf74f6d83d8f3d9063801b8~mv2.jpg",
+      "medium": "/images/photography/medium_963954_81382f1afcf74f6d83d8f3d9063801b8~mv2.jpg",
+      "full": "/images/photography/full_963954_81382f1afcf74f6d83d8f3d9063801b8~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_68c785f9dcc04d579553545aeba44046~mv2.jpg",
+      "description": "Portrait of woman surrounded by lush green foliage",
+      "thumb": "/images/photography/thumb_963954_68c785f9dcc04d579553545aeba44046~mv2.jpg",
+      "medium": "/images/photography/medium_963954_68c785f9dcc04d579553545aeba44046~mv2.jpg",
+      "full": "/images/photography/full_963954_68c785f9dcc04d579553545aeba44046~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_6f8bb6be5e1e487c80d32a1e7b748e53~mv2.jpg",
+      "description": "Woman posing on rooftop against bright blue sky",
+      "thumb": "/images/photography/thumb_963954_6f8bb6be5e1e487c80d32a1e7b748e53~mv2.jpg",
+      "medium": "/images/photography/medium_963954_6f8bb6be5e1e487c80d32a1e7b748e53~mv2.jpg",
+      "full": "/images/photography/full_963954_6f8bb6be5e1e487c80d32a1e7b748e53~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_d1783f6f4df14475a4b284c0613f5421~mv2.jpg",
+      "description": "Artistic portrait with natural lighting",
+      "thumb": "/images/photography/thumb_963954_d1783f6f4df14475a4b284c0613f5421~mv2.jpg",
+      "medium": "/images/photography/medium_963954_d1783f6f4df14475a4b284c0613f5421~mv2.jpg",
+      "full": "/images/photography/full_963954_d1783f6f4df14475a4b284c0613f5421~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_eb2bd2b814ae463cb4ece85f31f3ba82~mv2.jpg",
+      "description": "Urban street photography scene",
+      "thumb": "/images/photography/thumb_963954_eb2bd2b814ae463cb4ece85f31f3ba82~mv2.jpg",
+      "medium": "/images/photography/medium_963954_eb2bd2b814ae463cb4ece85f31f3ba82~mv2.jpg",
+      "full": "/images/photography/full_963954_eb2bd2b814ae463cb4ece85f31f3ba82~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_d27a6224206d4d16ab6ef4b1bf0dd22f~mv2.jpg",
+      "description": "Candid lifestyle photograph",
+      "thumb": "/images/photography/thumb_963954_d27a6224206d4d16ab6ef4b1bf0dd22f~mv2.jpg",
+      "medium": "/images/photography/medium_963954_d27a6224206d4d16ab6ef4b1bf0dd22f~mv2.jpg",
+      "full": "/images/photography/full_963954_d27a6224206d4d16ab6ef4b1bf0dd22f~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_ef108d6e5a8d45df802b42e2fbb1a622~mv2.jpg",
+      "description": "Outdoor portrait in natural environment",
+      "thumb": "/images/photography/thumb_963954_ef108d6e5a8d45df802b42e2fbb1a622~mv2.jpg",
+      "medium": "/images/photography/medium_963954_ef108d6e5a8d45df802b42e2fbb1a622~mv2.jpg",
+      "full": "/images/photography/full_963954_ef108d6e5a8d45df802b42e2fbb1a622~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_791e46b96a10452a9528d133d5502f8d~mv2.jpg",
+      "description": "Creative composition with geometric elements",
+      "thumb": "/images/photography/thumb_963954_791e46b96a10452a9528d133d5502f8d~mv2.jpg",
+      "medium": "/images/photography/medium_963954_791e46b96a10452a9528d133d5502f8d~mv2.jpg",
+      "full": "/images/photography/full_963954_791e46b96a10452a9528d133d5502f8d~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_9162cbdd78c549109f68bfb3681de0eb~mv2.jpg",
+      "description": "Portrait photography with dramatic shadows",
+      "thumb": "/images/photography/thumb_963954_9162cbdd78c549109f68bfb3681de0eb~mv2.jpg",
+      "medium": "/images/photography/medium_963954_9162cbdd78c549109f68bfb3681de0eb~mv2.jpg",
+      "full": "/images/photography/full_963954_9162cbdd78c549109f68bfb3681de0eb~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_11cb3155ab8e4e38a0f9717be22b92cb~mv2.jpg",
+      "description": "Environmental portrait in urban setting",
+      "thumb": "/images/photography/thumb_963954_11cb3155ab8e4e38a0f9717be22b92cb~mv2.jpg",
+      "medium": "/images/photography/medium_963954_11cb3155ab8e4e38a0f9717be22b92cb~mv2.jpg",
+      "full": "/images/photography/full_963954_11cb3155ab8e4e38a0f9717be22b92cb~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_4933b5ab12464294b400991231229f57~mv2.jpg",
+      "description": "Fashion inspired photography with bold styling",
+      "thumb": "/images/photography/thumb_963954_4933b5ab12464294b400991231229f57~mv2.jpg",
+      "medium": "/images/photography/medium_963954_4933b5ab12464294b400991231229f57~mv2.jpg",
+      "full": "/images/photography/full_963954_4933b5ab12464294b400991231229f57~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_b7ee330edde1484c8467994fa2055a68~mv2.jpg",
+      "description": "Intimate portrait with soft lighting",
+      "thumb": "/images/photography/thumb_963954_b7ee330edde1484c8467994fa2055a68~mv2.jpg",
+      "medium": "/images/photography/medium_963954_b7ee330edde1484c8467994fa2055a68~mv2.jpg",
+      "full": "/images/photography/full_963954_b7ee330edde1484c8467994fa2055a68~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_2bcbe6c57e684d578daebd843560ad51~mv2.jpg",
+      "description": "Documentary style candid moment",
+      "thumb": "/images/photography/thumb_963954_2bcbe6c57e684d578daebd843560ad51~mv2.jpg",
+      "medium": "/images/photography/medium_963954_2bcbe6c57e684d578daebd843560ad51~mv2.jpg",
+      "full": "/images/photography/full_963954_2bcbe6c57e684d578daebd843560ad51~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_936141ee69a7494bbdd7b525e2ea9966~mv2.jpg",
+      "description": "Landscape photography with human element",
+      "thumb": "/images/photography/thumb_963954_936141ee69a7494bbdd7b525e2ea9966~mv2.jpg",
+      "medium": "/images/photography/medium_963954_936141ee69a7494bbdd7b525e2ea9966~mv2.jpg",
+      "full": "/images/photography/full_963954_936141ee69a7494bbdd7b525e2ea9966~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_947b53c1c87042ce9cbabae881ff2a86~mv2.jpg",
+      "description": "Moody atmospheric photograph",
+      "thumb": "/images/photography/thumb_963954_947b53c1c87042ce9cbabae881ff2a86~mv2.jpg",
+      "medium": "/images/photography/medium_963954_947b53c1c87042ce9cbabae881ff2a86~mv2.jpg",
+      "full": "/images/photography/full_963954_947b53c1c87042ce9cbabae881ff2a86~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_49cf68b436e549588d240e653afd521c~mv2.jpg",
+      "description": "Editorial style portrait session",
+      "thumb": "/images/photography/thumb_963954_49cf68b436e549588d240e653afd521c~mv2.jpg",
+      "medium": "/images/photography/medium_963954_49cf68b436e549588d240e653afd521c~mv2.jpg",
+      "full": "/images/photography/full_963954_49cf68b436e549588d240e653afd521c~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_f91dc0ebdd0646abb543ffa4822b4dfb~mv2.jpg",
+      "description": "Creative portrait with artistic lighting",
+      "thumb": "/images/photography/thumb_963954_f91dc0ebdd0646abb543ffa4822b4dfb~mv2.jpg",
+      "medium": "/images/photography/medium_963954_f91dc0ebdd0646abb543ffa4822b4dfb~mv2.jpg",
+      "full": "/images/photography/full_963954_f91dc0ebdd0646abb543ffa4822b4dfb~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_8c4bad9f1361409ea1d1b00c130a7842~mv2.jpg",
+      "description": "Natural light photography outdoors",
+      "thumb": "/images/photography/thumb_963954_8c4bad9f1361409ea1d1b00c130a7842~mv2.jpg",
+      "medium": "/images/photography/medium_963954_8c4bad9f1361409ea1d1b00c130a7842~mv2.jpg",
+      "full": "/images/photography/full_963954_8c4bad9f1361409ea1d1b00c130a7842~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_8faeddd94cc54360b396f40c2c878ab3~mv2.jpg",
+      "description": "Fine art inspired photographic composition",
+      "thumb": "/images/photography/thumb_963954_8faeddd94cc54360b396f40c2c878ab3~mv2.jpg",
+      "medium": "/images/photography/medium_963954_8faeddd94cc54360b396f40c2c878ab3~mv2.jpg",
+      "full": "/images/photography/full_963954_8faeddd94cc54360b396f40c2c878ab3~mv2.jpg"
+    },
+    {
+      "src": "/images/photography/medium_963954_4c232f8a81a4448a93a48944e4fb3488~mv2.jpg",
+      "description": "Cinematic portrait with film aesthetic",
+      "thumb": "/images/photography/thumb_963954_4c232f8a81a4448a93a48944e4fb3488~mv2.jpg",
+      "medium": "/images/photography/medium_963954_4c232f8a81a4448a93a48944e4fb3488~mv2.jpg",
+      "full": "/images/photography/full_963954_4c232f8a81a4448a93a48944e4fb3488~mv2.jpg"
+    }
+  ]
+}

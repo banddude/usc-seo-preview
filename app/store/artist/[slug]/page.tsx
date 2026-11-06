@@ -1,0 +1,202 @@
+import Link from "next/link";
+import Image from "../../../components/PreviewImage";
+import Header from "../../../components/Header";
+import Footer from "../../../components/Footer";
+import {
+  getProductsByArtist,
+  getArchivedProductsByArtist,
+  getAllArtists,
+  getDisplayArtists,
+  artistToSlug,
+  slugToArtist,
+  getThumbPath,
+  getArchivedNotice,
+} from "../../../lib/store-data";
+import ServicesBanner from "../../../components/ServicesBanner";
+import { notFound } from "next/navigation";
+
+export function generateStaticParams() {
+  const artists = getAllArtists();
+  return artists.map((artist) => ({
+    slug: artistToSlug(artist),
+  }));
+}
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export default async function ArtistStorePage({ params }: PageProps) {
+  const { slug } = await params;
+  const artist = slugToArtist(slug);
+
+  if (!artist) {
+    notFound();
+  }
+
+  const activeProducts = getProductsByArtist(artist);
+  const archivedProducts = getArchivedProductsByArtist(artist);
+  const products = activeProducts;
+  const isArchiveOnly = activeProducts.length === 0 && archivedProducts.length > 0;
+  const artists = getDisplayArtists();
+  const notice = getArchivedNotice();
+
+  return (
+    <div className="min-h-screen bg-white">
+      {/* Header */}
+      <Header variant="light" currentPage="Store" />
+
+      {/* Main Content */}
+      <div className="pt-[120px] md:pt-[150px] pb-16">
+        {/* Breadcrumb */}
+        <div className="px-6 mb-2">
+          <nav className="flex items-center text-sm text-gray-600">
+            <Link href="/" className="hover:text-gray-900">
+              Home
+            </Link>
+            <span className="mx-2">&gt;</span>
+            <Link href="/store" className="hover:text-gray-900">
+              Store
+            </Link>
+            <span className="mx-2">&gt;</span>
+            <span className="text-gray-900">{artist}</span>
+          </nav>
+        </div>
+
+        {/* Page Title */}
+        <div className="px-4 md:px-6 mb-6">
+          <h1 className="text-xl md:text-2xl font-medium text-black">{artist}</h1>
+        </div>
+
+        {/* Mobile Browse Menu */}
+        <div className="md:hidden px-4 mb-6">
+          <details className="bg-black text-white rounded-lg overflow-hidden">
+            <summary className="px-4 py-3 text-sm font-medium cursor-pointer flex items-center justify-between">
+              <span>Browse</span>
+              <svg className="w-4 h-4 transition-transform details-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div className="px-4 pb-4 border-t border-gray-700">
+              <nav className="pt-3 space-y-2">
+                <Link href="/store" className="block text-sm text-gray-300 py-1">All Products</Link>
+                <Link href="/store/winter-spring-26" className="block text-sm text-gray-300 py-1">Winter Spring &apos;26</Link>
+              </nav>
+              <h3 className="text-xs uppercase tracking-wider text-gray-400 mt-4 mb-2">Artists</h3>
+              <nav className="space-y-2">
+                {artists.map((a) => (
+                  <Link
+                    key={a}
+                    href={`/store/artist/${artistToSlug(a)}`}
+                    className={`block text-sm py-1 ${a === artist ? "text-white" : "text-gray-300"}`}
+                  >
+                    {a}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+          </details>
+        </div>
+
+        {/* Content Area */}
+        <div className="flex flex-col md:flex-row px-4 md:px-6">
+          {/* Left Sidebar - Hidden on mobile */}
+          <aside className="hidden md:block w-48 flex-shrink-0 mr-8">
+            <div className="bg-black text-white p-4">
+              <h2 className="text-sm font-medium mb-4 border-b border-gray-600 pb-2">
+                Browse by
+              </h2>
+              <nav className="space-y-3">
+                <Link
+                  href="/store"
+                  className="block text-sm hover:text-gray-300 transition-colors text-gray-300"
+                >
+                  All Products
+                </Link>
+              </nav>
+
+              <h2 className="text-sm font-medium mt-6 mb-4 border-b border-gray-600 pb-2">
+                Artists
+              </h2>
+              <nav className="space-y-3">
+                {artists.map((a) => (
+                  <Link
+                    key={a}
+                    href={`/store/artist/${artistToSlug(a)}`}
+                    className={`block text-sm hover:text-gray-300 transition-colors ${
+                      a === artist ? "text-white" : "text-gray-300"
+                    }`}
+                  >
+                    {a}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+          </aside>
+
+          {/* Main Content Area */}
+          <main className="flex-1">
+            {isArchiveOnly && (
+              <div className="mb-6 border border-gray-300 bg-gray-50 p-5 max-w-3xl">
+                <p className="text-xs uppercase tracking-wider text-gray-500 mb-2">Past Artist</p>
+                <p className="text-sm text-gray-700 leading-relaxed mb-3">{notice}</p>
+                <Link
+                  href="/contact"
+                  className="inline-block text-sm underline underline-offset-4 text-black hover:text-gray-700"
+                >
+                  Contact USC
+                </Link>
+              </div>
+            )}
+
+            <div className="mb-4">
+              <p className="text-sm text-gray-600">
+                {isArchiveOnly
+                  ? `${archivedProducts.length} archived ${archivedProducts.length === 1 ? "print" : "prints"}`
+                  : `${products.length} products`}
+              </p>
+            </div>
+
+            {/* Product Grid - Responsive columns */}
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
+              {(isArchiveOnly ? archivedProducts : products).map((product) => (
+                <Link
+                  key={product.id}
+                  href={`/store/product/${product.id}`}
+                  className="group cursor-pointer block"
+                >
+                  <div className="aspect-square mb-3 overflow-hidden bg-gray-100 relative">
+                    <Image
+                      src={getThumbPath(product.image)}
+                      alt={product.name}
+                      fill
+                      className={`object-cover transition-transform duration-200 group-hover:scale-105 ${
+                        isArchiveOnly ? "grayscale-[15%] group-hover:grayscale-0" : ""
+                      }`}
+                      unoptimized
+                    />
+                  </div>
+                  <h3 className="text-sm font-medium text-black mb-1">
+                    {product.name}
+                  </h3>
+                  {isArchiveOnly ? (
+                    <div className="text-xs text-gray-500 italic">Archived</div>
+                  ) : (
+                    <div className="text-sm text-gray-600">
+                      ${product.price.toFixed(2)}
+                    </div>
+                  )}
+                </Link>
+              ))}
+            </div>
+          </main>
+        </div>
+      </div>
+
+      <ServicesBanner />
+
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
+}

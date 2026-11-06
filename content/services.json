@@ -1,0 +1,144 @@
+{
+  "page": "services",
+  "title": "Full Production",
+  "subtitle": "United Studio Collective specializes in fashion films. We bring the same full production rigor \u2014 concept to delivery \u2014 to experimental shorts, brand work, and beyond. Photography, editing, color, and sound all live inside the production rather than alongside it.",
+  "breakdown": {
+    "title": "Service Breakdown",
+    "subtitle": "An itemized look at everything United Studio Collective brings to a project. This breakdown does not include actual pricing.",
+    "sections": [
+      {
+        "title": "Pre-Production",
+        "items": [
+          {
+            "label": "Story Vision Creation"
+          },
+          {
+            "label": "Storyboard",
+            "subitems": [
+              "Shot List Creation",
+              "Mood Board Creation"
+            ]
+          },
+          {
+            "label": "Location Scouting"
+          },
+          {
+            "label": "Shoot Scheduling"
+          },
+          {
+            "label": "Gear Sheet Creation & Management"
+          },
+          {
+            "label": "Talent Scouting"
+          }
+        ]
+      },
+      {
+        "title": "Production Services",
+        "items": [
+          {
+            "label": "Meal Services Management",
+            "subitems": [
+              "Includes meal coverage during the shoot and crafty services"
+            ]
+          },
+          {
+            "label": "Location Rental"
+          },
+          {
+            "label": "Lodging"
+          },
+          {
+            "label": "Gear List",
+            "subitems": [
+              "Digital Camera Package",
+              "Super 8 Camera Package",
+              "16mm Camera Package",
+              "Lens Package",
+              "Lighting Package",
+              "1 Ton Grip Truck Package"
+            ]
+          },
+          {
+            "label": "Actors / Models"
+          },
+          {
+            "label": "Hair & Makeup"
+          },
+          {
+            "label": "Director of Photography"
+          },
+          {
+            "label": "1st AC"
+          },
+          {
+            "label": "Production Assistant"
+          },
+          {
+            "label": "Wardrobe / Stylist"
+          },
+          {
+            "label": "Gaffer"
+          },
+          {
+            "label": "Photography Stills"
+          },
+          {
+            "label": "BTS Stills"
+          }
+        ]
+      },
+      {
+        "title": "Post-Production Services",
+        "items": [
+          {
+            "label": "Editing"
+          },
+          {
+            "label": "Color Grading"
+          },
+          {
+            "label": "Photography Still Editing"
+          },
+          {
+            "label": "BTS Photo Editing"
+          }
+        ]
+      }
+    ]
+  },
+  "reelCta": {
+    "title": "See Our Work in Motion",
+    "description": "Want to see the quality of what we deliver? Watch the reel.",
+    "buttonText": "View Our Reel",
+    "buttonLink": "/filmmaking"
+  },
+  "cta": {
+    "title": "Ready to Create Something Amazing?",
+    "description": "Let's discuss your next project and bring your vision to life.",
+    "buttonText": "Get in Touch",
+    "buttonLink": "/contact"
+  },
+  "galleryHeading": "Recent Work",
+  "gallerySubtitle": "Examples of projects USC has produced.",
+  "gallery": [
+    {
+      "image": "/images/services/1769985480991_USC_JessieLayingDown1.jpg",
+      "caption": "Fashion",
+      "href": "/filmmaking?v=eGznsWwAf28",
+      "description": "Remain On Hold"
+    },
+    {
+      "image": "/images/services/desert_dunes.jpg",
+      "caption": "Photography",
+      "href": "/photography#photo-963954_68c785f9dcc04d579553545aeba44046",
+      "description": "View the gallery"
+    },
+    {
+      "image": "/images/services/1772859812679_img20210707_03244689.jpg",
+      "caption": "Experimental",
+      "href": "/filmmaking?v=Mwe9xCaLLBM",
+      "description": "The Seasons of Fall"
+    }
+  ]
+}
