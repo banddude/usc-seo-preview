@@ -24,7 +24,7 @@ export default function EditorialPage({ page }: { page: EditorialContent }) {
           </div>
         </section>
         <article className="px-4 md:px-8 py-12 md:py-20">
-          <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
+          <div className="max-w-3xl mx-auto space-y-12 md:space-y-16">
             {page.sections.map(section => (
               <section key={section.title}>
                 <h2 className="text-2xl md:text-3xl font-light text-black mb-5">{section.title}</h2>

@@ -51,6 +51,20 @@ export default function ServicesPage() {
             <p className="text-lg md:text-xl text-gray-600 font-light leading-relaxed">
               {servicesData.subtitle}
             </p>
+            <nav aria-label="Production resources" className="mt-8 flex flex-wrap justify-center gap-3">
+              <Link
+                href="/fashion-film-production/"
+                className="inline-flex items-center justify-center bg-black text-white px-6 py-3 font-medium hover:bg-gray-800 transition-colors"
+              >
+                Fashion Film Production
+              </Link>
+              <Link
+                href="/fashion-film-production-cost/"
+                className="inline-flex items-center justify-center bg-black text-white px-6 py-3 font-medium hover:bg-gray-800 transition-colors"
+              >
+                Production Cost Guide
+              </Link>
+            </nav>
           </div>
         </section>
 
@@ -121,7 +135,7 @@ export default function ServicesPage() {
 
         {/* Production services */}
         <section className="px-4 md:px-8 pb-16 md:pb-24">
-          <div className="max-w-4xl mx-auto space-y-12 md:space-y-16">
+          <div className="max-w-3xl mx-auto space-y-12 md:space-y-16">
             {servicesData.editorialSections.map((section) => (
               <section key={section.title}>
                 <h2 className="text-2xl md:text-3xl font-light text-black mb-5">{section.title}</h2>
