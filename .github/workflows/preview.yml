@@ -29,6 +29,16 @@ jobs:
         run: npx tsc --noEmit
       - name: Build static site and verify preview safeguards
         run: npm run build
+      - name: Upload rendered pages for preview review
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-render
+          path: |
+            out/
+            !out/images/**
+            !out/videos/**
+          retention-days: 1
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
